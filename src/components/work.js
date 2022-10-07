@@ -4,6 +4,8 @@ const Work = () => (
         <h4>Work Experience</h4>
         <hr />
         <div style={{ padding: "5px" }}> 
+            <a href="https://thecalendarpros.com"><h5>The Calendar Pros</h5></a>
+            <div style={{margin: "15px"}}><span></span></div>
             <a href="https://camerondaycustomwebsites.net"><h5>Cameron Day Custom Websites</h5></a>
             <small className="text-muted">March 2019 - Present</small>
             <h6><i>Owner</i></h6>
