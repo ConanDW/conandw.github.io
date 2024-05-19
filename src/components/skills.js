@@ -1,6 +1,7 @@
 import React from 'react'
-import { Progress } from 'reactstrap'
+import { Container, Progress } from 'reactstrap'
 const Skills = (props) => (
+  <Container fluid>
     <div className="bg-light" style={{padding: "5px"}}>
       <h5>Languages and Frameworks</h5>
       <hr />
@@ -27,6 +28,7 @@ const Skills = (props) => (
       <Progress animated color="success" value="25">React.js</Progress>
       <br />
     </div>
+  </Container>
 )
 export default Skills
 // WEBPACK FOOTER //

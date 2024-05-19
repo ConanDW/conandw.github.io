@@ -1,9 +1,10 @@
 import React from 'react'
 import { Container, Card, CardGroup, CardBody, CardTitle, CardSubtitle, CardText } from 'reactstrap'
 const Projects = () => (
-    <Container id="proj">
-    <h5>Showcase Projects</h5>
-    <hr />
+    <Container fluid>
+        <div className="bg-light" style={{Padding: "5px"}}>
+        <h5>Showcase Projects</h5>
+        <hr />
         <CardGroup>
             <Card>
                 <CardBody>
@@ -59,6 +60,8 @@ const Projects = () => (
                 </CardBody>
             </Card>
         </CardGroup>
+
+        </div>
     </Container>
 )
 export default Projects
