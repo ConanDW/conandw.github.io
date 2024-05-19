@@ -14,9 +14,7 @@ const Work = () => (
                     for said codebase. Designed and configured integrations using JSON REST APIS. Worked with Datto/AutoTask platforms and designed scripts for those platforms.
                     Sophos, 3CX, Nerdio certified.
                 </h6>
-                <br />
-                <div style={{margin: "15px"}}><span></span></div>
-                <br />
+                <div style={{margin: "15px", padding: "5px"}}><span></span></div>
                 <a href="https://www.wts.com" class="link-info"><h5>World Wide Tech Services</h5></a>
                 <small className="text-muted">January 2023 - October 2024</small>
                 <h6><i>Server Support Engineer</i></h6>
@@ -24,17 +22,13 @@ const Work = () => (
                     Configured Dell workstations with required software and hardware for business upgrading endpoints. Configured and installed new endpoints for
                     new businesses before they opened.
                 </h6>
-                <br />
-                <div style={{margin: "15px"}}><span></span></div>
-                <br />
+                <div style={{margin: "15px", padding: "5px"}}><span></span></div>
                 <a href="https://camerondaycustomwebsites.net" class="link-info"><h5>Cameron Day Custom Websites</h5></a>
                 <small className="text-muted">March 2019 - December 2023</small>
                 <h6><i>Owner</i></h6>
                 <h6>Ran day-to-day business operations, developed all websites, configured firebase, made sales calls, hired employees. 
                     Made large and small websites for a variety of customers in a variety of industries.</h6>
-                <br />
-                <div style={{margin: "15px"}}><span></span></div>
-                <br />
+                <div style={{margin: "15px", padding: "5px"}}><span></span></div>
                 <h5>Conan Developer of Webs</h5>
                 <small className="text-muted">August 2018 - March 2019</small>
                 <h6><i>Freelance Developer</i></h6>

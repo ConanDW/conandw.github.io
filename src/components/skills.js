@@ -5,7 +5,6 @@ const Skills = (props) => (
     <div className="bg-light" style={{padding: "5px"}}>
       <h5>Languages and Frameworks</h5>
       <hr />
-      <br />
       <h6>Automation:</h6>
       <Progress animated color="primary" value="75">PowerShell</Progress>
       <br />
