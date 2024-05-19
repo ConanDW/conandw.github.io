@@ -1,9 +1,11 @@
-import React from 'react'
-import GitHubCorners from '@uiw/react-github-corners';
-const corner = () => (
-    <GitHubCorners
-      position="right"
-      href="https://github.com/ConanDW/conandw.github.io"
-    />
-)
-export default corner
+import React, { Component } from 'react'
+import GithubCorner from 'react-github-corner'
+export default class corner extends Component {
+  render() {
+    return (
+      <div>
+        <GithubCorner href="https://github.com/ConanDW" />
+      </div>
+    );
+  }
+}

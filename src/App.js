@@ -5,13 +5,20 @@ import Info from './components/info'
 import Skills from './components/skills'
 import Work from './components/work'
 import Corner from './components/corner'
+import Projects from './components/projects'
 
 const App = () => (
   <div className="bg-light appDiv">
     <Header />
     <Info />
     <Corner />
+    <Projects />
+    <br />
+    <br />
+    <br />
     <Work />
+    <br />
+    <br />
     <Skills />
     <Footer />
   </div>

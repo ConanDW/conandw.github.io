@@ -17,21 +17,12 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
-a {
-  color: #343a40;
-}
-a:hover {
-  color: #173798;
-  text-decoration: none;
-}
-
 footer {
   margin-top: 20px;
   margin-bottom: 10px;
   border-top: #444444;
   text-align: center;
 }
-
 footer a {
   color: black;
   font-size: 30px;
