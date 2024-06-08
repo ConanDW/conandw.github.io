@@ -6,6 +6,6 @@ export default class corner extends Component {
       <div>
         <GithubCorner href="https://github.com/ConanDW" />
       </div>
-    );
+    )
   }
 }

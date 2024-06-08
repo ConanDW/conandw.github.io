@@ -1,5 +1,19 @@
-import React from 'react'
+import { React, useRef } from 'react'
 import { Container, Card, CardGroup, CardBody, CardTitle, CardSubtitle, CardText } from 'reactstrap'
+import { Transition } from 'react-transition-group'
+const duration = 300
+
+const defaultStyle = {
+    transition: `opacity ${duration}ms ease-in-out`,
+    opacity: 0
+}
+
+const transitionStyles = {
+    entering: { opacity: 1 },
+    entered: { opacity: 1 },
+    exiting: {}
+}
+
 const Projects = () => (
     <Container fluid>
         <div className="bg-light" style={{Padding: "5px"}}>
