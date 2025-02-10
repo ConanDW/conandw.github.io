@@ -1,15 +1,9 @@
-import React, { useState } from 'react'
+import React from 'react'
 import {
-  Collapse,
   Navbar,
-  NavbarToggler,
   NavbarBrand,
   Nav,
-  NavItem,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
+  NavItem
 } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhoneSquare, faEnvelopeSquare } from '@fortawesome/free-solid-svg-icons'

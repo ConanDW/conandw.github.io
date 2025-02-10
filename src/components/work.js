@@ -6,12 +6,16 @@ const Work = () => (
             <h5>Work Experience</h5>
             <hr />
             <div style={{ padding: "5px" }}>
-                <a href="https://www.wwts.com" class="link-info"><h5>IPM Computers LLC</h5></a>
-                <small className="text-muted">October 2024 - Present</small>
-                <h6><i>Tier 1 Technician/PowerShell Developer</i></h6>
+                <a href="https://www.ipmcomputers.com" class="link-info"><h5>IPM Computers LLC</h5></a>
+                <small className="text-muted">January 2025 - Current - Lead Developer</small>
+                <br />
+                <small className="text-muted">October 2024 - January 2025 - T1/PowerShell Developer</small>
+                <h6><i>Lead Developer</i></h6>
                 <h6>Answered customer calls and helped them troubleshoot software issues. Installed network and VOIP hardware and performed basic network troubleshooting.
-                    Wrote and maintained PowerShell scripts for workflow automations. Developed PowerShell module to streamline our PowerShell codebase. Developed documentation
-                    for said codebase. Designed and configured integrations using JSON REST APIS. Worked with Datto/AutoTask platforms and designed scripts for those platforms.
+                    Wrote and maintained PowerShell scripts for workflow automation. Developed PowerShell module to streamline our PowerShell codebase. Developed documentation
+                    for said codebase. Transitioned to Lead Developer in 2025 where I now manage developed code, Datto RMM/AT policies, and develop new workplace automation tools and integrations.
+                    I also manage the DevOps processes and have implemented CI/CD and automated testing.
+                    Designed and configured integrations using JSON REST APIS. Worked with Datto/AutoTask platforms and designed scripts for those platforms.
                     Sophos, 3CX, Nerdio certified.
                 </h6>
                 <div style={{margin: "15px", padding: "5px"}}><span></span></div>

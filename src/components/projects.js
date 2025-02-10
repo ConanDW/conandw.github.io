@@ -1,18 +1,5 @@
-import { React, useRef } from 'react'
+import React from 'react'
 import { Container, Card, CardGroup, CardBody, CardTitle, CardSubtitle, CardText } from 'reactstrap'
-import { Transition } from 'react-transition-group'
-const duration = 300
-
-const defaultStyle = {
-    transition: `opacity ${duration}ms ease-in-out`,
-    opacity: 0
-}
-
-const transitionStyles = {
-    entering: { opacity: 1 },
-    entered: { opacity: 1 },
-    exiting: {}
-}
 
 const Projects = () => (
     <Container fluid>
@@ -30,28 +17,28 @@ const Projects = () => (
                         tag="h6"
                         color='link-info'
                     >
-                        <a href='https://github.com/ConanDW/IPMPowershellModule' class='link-info'>See code</a>
                     </CardSubtitle>
                     <CardText>
-                        PowerShell module combining api functions and our most commonly used functions into one code base.
-                        This allows us to accelerate and streamline script development.
+                        PowerShell module combining api functions and our most commonly used functions into one code base. 
+                        The module allows us to use one code base to interact with multiple api's and get back the same, formatted, data based on the api call taken.
+                        This allows us to accelerate and streamline api integrations development. This is a manifest based PowerShell module.
                     </CardText>
                 </CardBody>
             </Card>
             <Card>
                 <CardBody>
                     <CardTitle tag="h5">
-                        RMM Scripts
+                        Zabbix/Planner Integration
                     </CardTitle>
                     <CardSubtitle
                         className="mb-2 link-info"
                         tag="h6"
                         color='link-info'
                     >
-                        <a href='https://github.com/ConanDW/RMM-CD' class='link-info'>See code</a>
+                        <a href='https://api.ipmrms.com/CDN/tasks.html' class='link-info'>See Integration</a>
                     </CardSubtitle>
                     <CardText>
-                        Collection of scripts and monitors written for the Datto RMM platform.
+                        An integration using MS graph api and Zabbix to display company tasks on a dashboard in Zabbix. Note if there are no tasks it will be blank.
                     </CardText>
                 </CardBody>
             </Card>

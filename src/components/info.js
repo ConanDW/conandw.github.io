@@ -9,7 +9,7 @@ const Info = () => {
             <div style={{ padding: "5px" }}>
                 <h1 className="display-5">Software Craftsman</h1>
                 <br />
-                <p className="lead"><i>I am an independent developer striving to make relationships with industry experts. My purpose is to create software and automations that impowers workflows and processes.
+                <p className="lead"><i>I am an independent developer striving to make relationships with industry experts. My purpose is to create software and automation that impowers workflows and processes.
                     I pride myself on my functional and sematic code made exactly to the required specifications. 
                 </i></p>
             </div>
