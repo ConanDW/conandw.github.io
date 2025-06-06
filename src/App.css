@@ -29,3 +29,125 @@ footer a {
   margin-right: 10px;
   margin-left: 10px;
 }
+.projects-section {
+  padding: 20px;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.project-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+.skills-section {
+  padding: 20px;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.education ul,
+.certifications ul {
+  list-style-type: circle;
+}
+
+.education li,
+.certifications li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+hr {
+  margin: 20px 0;
+}
+.work-section {
+  padding: 20px;
+  background: linear-gradient(135deg, #f3f4f6, #e5e7eb);
+  border-radius: 8px;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.job-card {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  opacity: 0; /* Start hidden */
+  transform: translateY(20px); /* Start slightly below */
+  animation: fadeSlideUp 0.8s ease forwards; /* Apply animation */
+}
+
+.job-card:nth-child(1) {
+  animation-delay: 0.2s; /* Delay for the first card */
+}
+
+.job-card:nth-child(2) {
+  animation-delay: 0.4s; /* Delay for the second card */
+}
+
+.job-card:nth-child(3) {
+  animation-delay: 0.6s; /* Delay for the third card */
+}
+
+.job-card:nth-child(4) {
+  animation-delay: 0.8s; /* Delay for the fourth card */
+}
+
+@keyframes fadeSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.job-title {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.job-title:hover {
+  text-decoration: underline;
+}
+
+.job-dates {
+  display: block;
+  color: #6c757d;
+  margin-bottom: 10px;
+}
+
+.job-description {
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
