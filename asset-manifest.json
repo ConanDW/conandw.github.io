@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.38aebc0e.chunk.css",
+    "main.js": "/static/js/main.b138d835.chunk.js",
+    "main.js.map": "/static/js/main.b138d835.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0aa3ff0d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0aa3ff0d.js.map",
+    "static/css/2.44d809a4.chunk.css": "/static/css/2.44d809a4.chunk.css",
+    "static/js/2.11a9f9b4.chunk.js": "/static/js/2.11a9f9b4.chunk.js",
+    "static/js/2.11a9f9b4.chunk.js.map": "/static/js/2.11a9f9b4.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.44d809a4.chunk.css.map": "/static/css/2.44d809a4.chunk.css.map",
+    "static/css/main.38aebc0e.chunk.css.map": "/static/css/main.38aebc0e.chunk.css.map",
+    "static/js/2.11a9f9b4.chunk.js.LICENSE.txt": "/static/js/2.11a9f9b4.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/bg.fcf7ce0c.jpg",
+    "static/media/camdayresume.54d3be22.pdf": "/static/media/camdayresume.54d3be22.pdf",
+    "static/media/me.c058dab4.jpg": "/static/media/me.c058dab4.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0aa3ff0d.js",
+    "static/css/2.44d809a4.chunk.css",
+    "static/js/2.11a9f9b4.chunk.js",
+    "static/css/main.38aebc0e.chunk.css",
+    "static/js/main.b138d835.chunk.js"
+  ]
+}
