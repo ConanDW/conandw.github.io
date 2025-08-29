@@ -31,20 +31,21 @@ const Skills = () => (
           <li>Nerdio Azure Fundamentals Certified</li>
           <li>Nerdio Manager for MSP</li>
           <li>3CX Basic Certification</li>
+          <li>LPI Linux Essentials</li>
         </ul>
       </div>
     </div>
     <div className="bg-light" style={{padding: "5px", backgroundColor: "#36454F"}}>
       <h5 className="section-title">Languages and Frameworks</h5>
       <hr />
-      <h5>Automation & DevOps:</h5>
+      <h5>Automation, Scripting, & DevOps:</h5>
       <SkillBar label="PowerShell" value={100} color="primary" />
       <SkillBar label="JSON REST APIs/Swagger" value={100} color="primary" />
+      <SkillBar label="Bash" value={100} color="primary" />
       <SkillBar label="Pester" value={90} color="primary" />
-      <SkillBar label="Bash" value={90} color="primary" />
       <SkillBar label="Git" value={90} color="primary" />
       <SkillBar label="Docker" value={90} color="primary" />
-      <SkillBar label="Python" value={75} color="primary" />
+      <SkillBar label="Python" value={90} color="primary" />
       <SkillBar label="Kubernetes" value={75} color="primary" />
       <SkillBar label="Puppet" value={50} color="primary" />
       <h5>Software Development:</h5>
@@ -57,7 +58,7 @@ const Skills = () => (
       <SkillBar label="Bulma" value={100} color="success" />
       <SkillBar label="JavaScript" value={65} color="success" />
       <SkillBar label="React.js" value={65} color="success" />
-      <SkillBar label="Flask" value={50} color="success" />
+      <SkillBar label="Flask" value={65} color="success" />
     </div>
   </Container>
 );
