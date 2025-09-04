@@ -32,6 +32,7 @@ const Skills = () => (
           <li>Nerdio Manager for MSP</li>
           <li>3CX Basic Certification</li>
           <li>LPI Linux Essentials</li>
+          <li>AWS Certified Cloud Professional</li>
         </ul>
       </div>
     </div>
