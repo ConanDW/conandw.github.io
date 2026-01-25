@@ -14,6 +14,7 @@ const Work = () => (
         <small className="job-dates">October 2024 - January 2025 - Technical Developer</small>
         <p className="job-description">
           Led development and implementation of enterprise automation solutions while managing DevOps processes and CI/CD pipelines. Designed and developed a custom webhook server for automated system integrations. Implemented Microsoft Graph API integrations for enhanced workflow automation.
+          Developed multiple workflow automations, process automations, and platform integrations using PowerShell, Python, C#, GraphQL, and Bash. Developed RMM/B2B solutions using a multitude of APIs.
         </p>
       </div>
       <div className="job-card">

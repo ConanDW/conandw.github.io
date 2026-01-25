@@ -33,22 +33,23 @@ const Skills = () => (
           <li>3CX Basic Certification</li>
           <li>LPI Linux Essentials</li>
           <li>AWS Certified Cloud Professional</li>
+          <li>Comptia Network+</li>
         </ul>
       </div>
     </div>
-    <div className="bg-light" style={{padding: "5px", backgroundColor: "#36454F"}}>
+    <div className="bg-light" style={{ padding: "5px", backgroundColor: "#36454F" }}>
       <h5 className="section-title">Languages and Frameworks</h5>
       <hr />
       <h5>Automation, Scripting, & DevOps:</h5>
       <SkillBar label="PowerShell" value={100} color="primary" />
       <SkillBar label="JSON REST APIs/Swagger" value={100} color="primary" />
       <SkillBar label="Bash" value={100} color="primary" />
+      <SkillBar label="Python" value={90} color="primary" />
       <SkillBar label="Pester" value={90} color="primary" />
       <SkillBar label="Git" value={90} color="primary" />
       <SkillBar label="Docker" value={90} color="primary" />
-      <SkillBar label="Python" value={90} color="primary" />
       <SkillBar label="Kubernetes" value={75} color="primary" />
-      <SkillBar label="Puppet" value={50} color="primary" />
+      <SkillBar label="Puppet (IaC)" value={50} color="primary" />
       <h5>Software Development:</h5>
       <SkillBar label="Dart" value={85} color="primary" />
       <SkillBar label="Flutter" value={75} color="primary" />
@@ -60,6 +61,19 @@ const Skills = () => (
       <SkillBar label="JavaScript" value={65} color="success" />
       <SkillBar label="React.js" value={65} color="success" />
       <SkillBar label="Flask" value={65} color="success" />
+      <h5>IT and Cloud Computing:</h5>
+      <SkillBar label="Windows Desktop Support" value={100} color="warning" />
+      <SkillBar label="MacOS Support" value={100} color="warning" />
+      <SkillBar label="Windows Server Administration (AD, GPOS, etc.)" value={100} color="warning" />
+      <SkillBar label="Linux Server Administration" value={100} color="warning" />
+      <SkillBar label="MS365 and Entra" value={100} color="warning" />
+      <SkillBar label="Virtualization (VMware, Hyper-V, etc.)" value={100} color="warning" />
+      <SkillBar label="Backup and Disaster Recovery" value={100} color="warning" />
+      <SkillBar label="Documentation" value={100} color="warning" />
+      <SkillBar label="Network Support/Troubleshooting" value={90} color="warning" />
+      <SkillBar label="AWS Administration" value={75} color="warning" />
+      <SkillBar label="Azure Administration" value={75} color="warning" />
+      <SkillBar label="Security (Firewall, Endpoint, etc.)" value={70} color="warning" />
     </div>
   </Container>
 );

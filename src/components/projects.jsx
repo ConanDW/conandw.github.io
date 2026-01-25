@@ -18,23 +18,23 @@ const Projects = () => (
         </Card>
         <Card className="project-card">
           <CardBody>
-            <CardTitle tag="h5">Zabbix/Planner Integration</CardTitle>
-            <CardSubtitle>
-              <a href="https://api.ipmrms.com/CDN/tasks.html" className="link-info">See Integration</a>
-            </CardSubtitle>
+            <CardTitle tag="h5">Platform Integrations</CardTitle>
             <CardText>
-              An integration using MS Graph API and Zabbix to display company tasks from MS Planner on a dashboard. Tasks are dynamically updated.
+              Integrations with Syncro PSA, Sophos API, Spamhaus API, and more to automate ticket creation, alerting, inventory/billing management, workflow automation, and process automation.
             </CardText>
           </CardBody>
         </Card>
         <Card className="project-card">
           <CardBody>
-            <CardTitle tag="h5">Zabbix/Verizon Integration</CardTitle>
+            <CardTitle tag="h5">Zabbix Integrations</CardTitle>
             <CardSubtitle>
-              <a href="https://api.ipmrms.com/CDN/verizon.html" className="link-info">See Integration</a>
+              <a href="https://api.ipmrms.com/CDN/tasks.html" className="link-info">Planner Integration | </a>
+              <a href="https://api.ipmrms.com/CDN/verizon.html" className="link-info">Verizon Integration</a>
             </CardSubtitle>
             <CardText>
-              An integration using Verizon Reveal API and Zabbix to overcome limitations of Verizon's Reveal Portal.
+              <b>Planner Integration:</b> An integration using MS Graph API and Zabbix API to display company tasks from MS Planner on a dashboard. Tasks are dynamically updated.
+              <br />
+              <b>Verizon Integration:</b> An integration using Verizon Reveal API and Zabbix API to overcome limitations of Verizon's Reveal Portal.
             </CardText>
           </CardBody>
         </Card>
@@ -42,7 +42,7 @@ const Projects = () => (
           <CardBody>
             <CardTitle tag="h5">Custom Webhook Server and API</CardTitle>
             <CardSubtitle>
-              <a href="https://api.ipmrms.com/webhook" className="link-info">See Integration</a>
+              <a href="https://api.ipmrms.com/health" className="link-info">See Integration</a>
             </CardSubtitle>
             <CardText>
               A lightweight webhook server written in Python using Flask. It handles incoming webhooks and routes data to appropriate services.
