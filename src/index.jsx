@@ -6,7 +6,5 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
+console.log('Index.jsx is executing');
 createRoot(document.getElementById('root')).render(<App />);
-
-// WEBPACK FOOTER //
-// ./src/index.js

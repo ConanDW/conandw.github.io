@@ -5,7 +5,7 @@ import { Jumbotron, Button } from 'reactstrap';
 
 const Info = () => {
   return (
-    <Jumbotron id="mainJumbo" className="text-white">
+    <Jumbotron id="main-jumbo" className="text-white">
       <div style={{ padding: '5px' }}>
         <h1 className="display-5">Software Craftsman and IT Professional</h1>
         <br />
@@ -25,5 +25,4 @@ const Info = () => {
 };
 
 export default Info;
-// WEBPACK FOOTER //
-// ./src/components/info.js
+
