@@ -10,18 +10,20 @@ const Projects = () => (
       <div className="project-cards">
         <Card className="project-card">
           <CardBody>
-            <CardTitle tag="h5">IPM PowerShell Module</CardTitle>
+            <CardTitle tag="h5">TypeShell</CardTitle>
             <CardText>
-              A PowerShell module combining API functions and commonly used utilities into a single codebase. This module accelerates API integration development and streamlines workflows.
+              <CardSubtitle>
+                <a href="https://github.com/ConanDW/TypeShell" className='link-info'>See Code</a>
+              </CardSubtitle>
+              <CardText>
+                A PowerShell 7 wrapper and C# transpiler that fixes some of the quirks of PowerShell. Can be written as native TypeShell with a .ts1 extension and transpiled to PowerShell.
+              </CardText>
             </CardText>
           </CardBody>
         </Card>
         <Card className="project-card">
           <CardBody>
             <CardTitle tag="h5">Business Integrations</CardTitle>
-            <CardSubtitle>
-              <b>Business Integrations:</b>
-            </CardSubtitle>
             <CardText>
               Integrations with Syncro PSA, Sophos API, Spamhaus API, and more to automate ticket creation, alerting, inventory/billing management, workflow automation, and process automation.
             </CardText>

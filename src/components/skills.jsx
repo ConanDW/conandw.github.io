@@ -24,6 +24,7 @@ import {
   SiDell,
   SiComptia,
   SiLenovo,
+  SiDotnet,
 } from "react-icons/si";
 import { VscTerminalPowershell, VscAzure } from "react-icons/vsc";
 import { FaServer, FaNetworkWired, FaTools, FaFileAlt, FaRobot, FaMicrosoft, FaWindows, FaCog, FaShieldAlt, FaCloudUploadAlt, FaPhone } from "react-icons/fa";
@@ -64,6 +65,7 @@ const skillIcons = {
   "Azure Fundamentals": <VscAzure />,
   "Comptia A+": <SiComptia />,
   "Comptia Network+": <FaNetworkWired />,
+  "Comptia Security+": <MdSecurity />,
   "FANUC Operator": <GiRobotAntennas />,
   "Allen-Bradley": <GiGears />,
   "Parker Pneumatics": <GiValve />,
@@ -78,6 +80,8 @@ const skillIcons = {
   "Linux Essentials": <SiLinux />,
   "AWS Cloud Professional": <SiAmazonwebservices />,
   "Google IT Automation": <SiGoogle />,
+  "C#": <SiDotnet />,
+  "Yeastar Certified Technician": <FaPhone />,
 };
 
 const Skills = () => (
@@ -101,21 +105,22 @@ const Skills = () => (
           <div className="certifications-list-col">
             <ul>
               <li>Microsoft Certified: Azure Fundamentals</li>
-              <li>Comptia A+</li>
               <li>FANUC Operator Certified</li>
               <li>Allen-Bradley Operation and Programming Certified</li>
               <li>Parker Pneumatics Trained</li>
               <li>Lenovo PC Service Certifications</li>
               <li>Dell PC and Server Service Certifications</li>
-              <li>Sophos Certified Engineer</li>
               <li>Sophos Certified Endpoint Architect</li>
               <li>Sophos AT15 Firewall Architect</li>
               <li>Nerdio Azure Fundamentals Certified</li>
               <li>Nerdio Manager for MSP</li>
               <li>3CX Basic Certification</li>
+              <li>Yeastar Certified Technician</li>
               <li>LPI Linux Essentials</li>
               <li>AWS Certified Cloud Professional</li>
+              <li>Comptia A+</li>
               <li>Comptia Network+</li>
+              <li>Comptia Security+</li>
             </ul>
           </div>
           <div className="certifications-icons-col">
@@ -155,6 +160,7 @@ const Skills = () => (
         <div className="badge-container">
           <SkillBadge label="Dart" color="primary" />
           <SkillBadge label="Flutter" color="primary" />
+          <SkillBadge label="C#" color="primary" />
         </div>
       </div>
 
