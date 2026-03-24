@@ -11,7 +11,7 @@ const Work = () => (
           <h5>IPM Computers LLC</h5>
         </a>
         <small className="job-dates">January 2025 - Present</small>
-        <small className="job-dates">October 2024 - January 2025</small>
+        <small className="job-dates">October 2023 - January 2025</small>
         <p className="job-position">Lead Developer/T2 Technician</p>
         <p className="job-position">Previous Position: T1 Technician/Junior Developer</p>
         <p className="job-description">
@@ -23,7 +23,7 @@ const Work = () => (
         <a href="https://www.wts.com" className="job-title">
           <h5>World Wide Tech Services</h5>
         </a>
-        <small className="job-dates">January 2023 - October 2024</small>
+        <small className="job-dates">January 2022 - October 2023</small>
         <p className="job-position">Server Technician</p>
         <p className="job-description">
           Specialized in enterprise-level deployment and configuration of Dell and server infrastructure. Executed comprehensive hardware and software implementations for business endpoint solutions. Repaired and configured Dell and Lenovo desktops and laptops. Participated in client-focused deployments and configurations for new business establishments.
